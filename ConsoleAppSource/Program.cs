@@ -14,12 +14,17 @@ namespace ConsoleAppSource
 
             int A = 1;
             int B = 2;
-            int C = AddAB(A, B);
-            Console.WriteLine($"{A} + {B} = {C}");
+            
+            Console.WriteLine($"{A} + {B} = {AddAB(A, B)}");
+            Console.WriteLine($"{A} * {B} = {MultAB(A, B)}");
+            
             Console.ReadLine();
         }
 
         static int AddAB(int A, int B)
         { return A + B; }
+
+        static int MultAB(int A, int B)
+        { return A * B; }
     }
 }
