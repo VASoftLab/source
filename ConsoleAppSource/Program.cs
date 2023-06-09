@@ -10,8 +10,16 @@ namespace ConsoleAppSource
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hi, Vasya!");
+            Console.WriteLine("Hi, Vasya!");            
+
+            int A = 1;
+            int B = 2;
+            int C = AddAB(A, B);
+            Console.WriteLine($"{A} + {B} = {C}");
             Console.ReadLine();
         }
+
+        static int AddAB(int A, int B)
+        { return A + B; }
     }
 }

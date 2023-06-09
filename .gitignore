@@ -1,4 +1,5 @@
-
 .vs/
 ConsoleAppSource/bin/Debug/
 ConsoleAppSource/obj/Debug/
+ConsoleAppSource/bin/Release/
+ConsoleAppSource/obj/Release/
