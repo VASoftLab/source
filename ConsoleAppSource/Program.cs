@@ -17,7 +17,8 @@ namespace ConsoleAppSource
             
             Console.WriteLine($"{A} + {B} = {AddAB(A, B)}");
             Console.WriteLine($"{A} * {B} = {MultAB(A, B)}");
-            
+            Console.WriteLine($"{A} / {B} = {DivAB(A, B)}");
+
             Console.ReadLine();
         }
 
@@ -26,5 +27,8 @@ namespace ConsoleAppSource
 
         static int MultAB(int A, int B)
         { return A * B; }
+        
+        static double DivAB(int A, int B)
+        { return (double)A / (double)B; }
     }
 }
